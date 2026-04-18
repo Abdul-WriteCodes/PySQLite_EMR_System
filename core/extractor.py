@@ -154,7 +154,7 @@ def synthesize_papers(papers: list[dict]) -> dict[str, Any]:
             }
         ],
         temperature=0.2,
-        max_tokens=2000,
+        max_tokens=3000,
         response_format={"type": "json_object"}
     )
     
