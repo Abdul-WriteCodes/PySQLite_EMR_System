@@ -45,7 +45,7 @@ def _check_password() -> bool:
 
     # ── Landing / gate page ────────────────────────────────────
     # Animated background
-    st.markdown('<div class="gate-bg"></div>', unsafe_allow_html=True)
+    #st.markdown('<div class="gate-bg"></div>', unsafe_allow_html=True)
 
     col_l, col_c, col_r = st.columns([1, 1.6, 1])
     with col_c:
